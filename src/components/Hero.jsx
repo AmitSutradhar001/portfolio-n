@@ -85,7 +85,7 @@ const Hero = () => {
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
             My Name is Amit Sutradhar
           </h1>
-          <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
+          <h1 className="text-center text-3xl font-bold tracking-wider text-red-400 sm:text-2xl dark:text-yellow-600 transition-colors">
             &
           </h1>
           <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
