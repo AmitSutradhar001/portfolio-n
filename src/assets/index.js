@@ -1,17 +1,19 @@
 // Hero
-import InstagramLineIcon from "remixicon-react/InstagramLineIcon";
+import LinkedinLineIcon from "remixicon-react/LinkedinLineIcon";
 import FacebookCircleLineIcon from "remixicon-react/FacebookCircleLineIcon";
-import DribbbleLineIcon from "remixicon-react/DribbbleLineIcon";
-import YoutubeLineIcon from "remixicon-react/YoutubeLineIcon";
 import GithubLineIcon from "remixicon-react/GithubLineIcon";
 
 /* eslint-disable react/jsx-key */
 export const heroIcons = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
+  {
+    link: "https://www.linkedin.com/in/amit-sutradhar-103ab6293/",
+    icon: <LinkedinLineIcon />,
+  },
+  {
+    link: "https://www.facebook.com/profile.php?id=100077445633356",
+    icon: <FacebookCircleLineIcon />,
+  },
+  { link: "https://github.com/AmitSutradhar001", icon: <GithubLineIcon /> },
 ];
 
 // About Me

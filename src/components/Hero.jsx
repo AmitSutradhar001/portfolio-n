@@ -83,7 +83,10 @@ const Hero = () => {
             </motion.span>
           </motion.div>
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            My Name is Amit Sutradhar &
+            My Name is Amit Sutradhar
+          </h1>
+          <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
+            &
           </h1>
           <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
             I like animations 🤗
@@ -95,14 +98,14 @@ const Hero = () => {
           transition={{ delay: 0.5 }}
           className="mt-8 flex justify-center gap-x-10 text-5xl text-yellow-600 sm:text-2xl"
         >
-          {heroIcons.map((icon, i) => (
+          {heroIcons.map((data, i) => (
             <Link
               target="_blank"
-              href="#"
+              href={data.link}
               key={i}
               className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
             >
-              {icon}
+              {data.icon}
             </Link>
           ))}
         </motion.div>
