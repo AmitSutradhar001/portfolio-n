@@ -199,6 +199,7 @@ export const projectsButton = [
   "TailwindCSS",
   "ReactJS",
   "TypeScript",
+  "Shadcn",
   "Framer Motion",
   "NextJS",
   "NodeJS",
@@ -215,6 +216,18 @@ export const projectsData = [
     desc: "A website for personal, group, and scheduled video calls.",
     url: "/projects/video-call.png",
     tech: ["NextJS", "TypeScript", "HTML", "TailwindCSS"],
+  },
+  {
+    name: "A E-Commerce Website",
+    desc: "A full-stack e-commerce website for buying and selling clothes for everyone. I’m currently working on this project.",
+    url: "/projects/e-com.png",
+    tech: ["NextJS", "TypeScript", "HTML", "TailwindCSS", "Shadcn", "Prisma"],
+  },
+  {
+    name: "An Article Admin Dashboard",
+    desc: "An admin dashboard UI built with Shadcn components, featuring filtering and tooltip functionality.",
+    url: "/projects/sadcn-ui-dashbord.png",
+    tech: ["ReactJS", "JavaScript", "HTML", "TailwindCSS", "Shadcn"],
   },
   {
     name: "AS Blogs",
