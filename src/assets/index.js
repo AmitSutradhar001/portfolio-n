@@ -224,6 +224,12 @@ export const projectsData = [
     tech: ["NextJS", "TypeScript", "HTML", "TailwindCSS", "Shadcn", "Prisma"],
   },
   {
+    name: "EchoMind",
+    desc: "EchoMind is an AI-powered chat application that lets users talk to various famous personalities like Elon Musk, Modi, Trump, and more. It uses dynamic system prompts to emulate unique speaking styles. Fully responsive, with persona-specific chat history saved locally.",
+    url: "/projects/chat-ai.png",
+    tech: ["NextJS", "TypeScript", "TailwindCSS", "Next.js", "Gemini API"],
+  },
+  {
     name: "An Article Admin Dashboard",
     desc: "An admin dashboard UI built with Shadcn components, featuring filtering and tooltip functionality.",
     url: "/projects/sadcn-ui-dashbord.png",

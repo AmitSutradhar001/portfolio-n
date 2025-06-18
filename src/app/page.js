@@ -32,7 +32,6 @@ export default function Home() {
     compsArr.forEach((comp) => {
       observer.observe(comp);
     });
-    console.log(compsArr);
   }, []);
   return (
     <>
